@@ -1,27 +1,27 @@
 class Brain < Formula
   desc "Brain — collaborative terminal workspace TUI"
   homepage "https://github.com/ahmed3mar/brain"
-  version "0.1.14"
+  version "0.1.15"
 
   on_macos do
     on_arm do
-      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.14/brain-darwin-arm64.tar.gz"
-      sha256 "db52ab6727fd55f8d5cfa54d458d5eeadfa9f887887e5459164cce906dc7a59f"
+      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.15/brain-darwin-arm64.tar.gz"
+      sha256 "fb88939691f7541f582c199307635bed465c44f818dab859cd098fa815c427fb"
     end
     on_intel do
-      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.14/brain-darwin-amd64.tar.gz"
-      sha256 "b4536d2c8d60452315dee8a083b5313dedc5b07f9be2f89ebb68a21c334c7efe"
+      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.15/brain-darwin-amd64.tar.gz"
+      sha256 "d1ae33ed96c5e653dfd87bb618b55b4ba1bce91f40041f15a15d1f99d7c8af99"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.14/brain-linux-arm64.tar.gz"
-      sha256 "36b459ac915af6904f7a120a544c3ffe7e856d4b9382a85ac49a91672e917804"
+      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.15/brain-linux-arm64.tar.gz"
+      sha256 "2f5c11f19301fd795b5656f59438da669f40067a80517de533f6ddf064c35db0"
     end
     on_intel do
-      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.14/brain-linux-amd64.tar.gz"
-      sha256 "ccdb8488be4d1231a87de9b3245c632a02d8f30d0d08cee51d4e9ae33553f3e8"
+      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.15/brain-linux-amd64.tar.gz"
+      sha256 "0d5c5c6733d833eec5ebcd01a8849daa67a33ce26f0a851b6259c1af89ed811b"
     end
   end
 
