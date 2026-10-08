@@ -1,27 +1,27 @@
 class Brain < Formula
   desc "Collaborative coding workspace"
   homepage "https://github.com/ahmed3mar/brain"
-  version "0.1.28"
+  version "0.1.27"
 
   on_macos do
     on_arm do
-      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.28/brain-0.1.28-macos-arm64.tar.gz"
-      sha256 "d371c2c9776e651cca7e7ea76e756c9b4c4dd5d4deee74ea127e72108a48d1f0"
+      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.27/brain-0.1.27-macos-arm64.tar.gz"
+      sha256 "874f16f2dbb490fdab0442432d62a827d4d77ec5bb323e4548fce64cdd161d51"
     end
     on_intel do
-      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.28/brain-0.1.28-macos-x64.tar.gz"
-      sha256 "46c96a8d6c32aab1a8567d1588f84dba435d1821a42417ea3c0648ad5ba88266"
+      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.27/brain-0.1.27-macos-x64.tar.gz"
+      sha256 "257de524bb49c979a93a25c4dd673faa3c3d1e4376c09912f2bdbfbf4a5d7fa5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.28/brain-0.1.28-linux-arm64.tar.gz"
-      sha256 "aaea23a84741ee4340a50a2da887d67599455f91d06f376118b4770e5e0e2c26"
+      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.27/brain-0.1.27-linux-arm64.tar.gz"
+      sha256 "e7dab8bdbc426260fde64e0f8d2d4eaa8854eaef59358757af09d65c9f9a86cc"
     end
     on_intel do
-      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.28/brain-0.1.28-linux-x64.tar.gz"
-      sha256 "3056bc450b472baa732bc4a2c9725b990ff247368892b409f8b963ca3625d8bb"
+      url "https://github.com/ahmed3mar/brain/releases/download/v0.1.27/brain-0.1.27-linux-x64.tar.gz"
+      sha256 "596c1a0de04126d8a96baead9e463e3c87c30a91db9998bc14d50a64ca7142dd"
     end
   end
 
